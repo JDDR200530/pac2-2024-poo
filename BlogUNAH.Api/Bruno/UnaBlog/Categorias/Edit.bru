@@ -1,0 +1,18 @@
+meta {
+  name: Edit
+  type: http
+  seq: 5
+}
+
+put {
+  url: {{PATH}}/categories/6e517a89-71e3-4404-aa9b-346af4698c7e
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Juan Perez",
+    "description" : "Juan Perez"
+  }
+}
